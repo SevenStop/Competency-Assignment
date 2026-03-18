@@ -114,6 +114,39 @@ section p {
   color: #0057ff;
 }
 
+/* CARDS */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+ 
+.card {
+  padding: 1.5rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+ 
+.card h3 {
+  margin-bottom: 0.5rem;
+}
+ 
+.card p {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+ 
+.card a {
+  color: #0057ff;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+ 
+.card a:hover {
+  text-decoration: underline;
+}
+
 /* CONTACT */
 #contact p {
   margin-bottom: 1.2rem;
